@@ -592,7 +592,7 @@ mbe_desc.append('Course will cover fundamentals of probability and statistics wi
 
 mbe.append('MACHINE LEARNING AND SIGNAL PROCESSING FOR NEURO ENGINEERING')
 mbe_code.append('BIOE')
-mbe_course_code.append('BIE 548')
+mbe_course_code.append('BIOE 548')
 mbe_hours.append(3)
 mbe_desc.append('The activity of a complex network of billions of interconnected neurons underlies our ability to sense, represent and store the details of experienced life, and enables us to interact with our environment and other organisms. Modern neuroscience techniques enable us to access this activity, and thus to begin to understand the processes whereby individual neurons enable complex behaviors. In order to increase this understanding and to design biomedical systems which might therapeutically interact with neural circuits, advanced statistical signal processing and machine learning approaches are required. This class will cover a range of techniques and their application to basic neuroscience and neural interfaces. Topics include latent variable models, point processes, Bayesian inference, dimensionality reduction, dynamical systems, and spectral analysis. Neuroscience applications include modeling neural firing rates, spike sorting, decoding, characterization of neural systems, and field potential analysis.')
 
