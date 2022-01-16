@@ -15,9 +15,8 @@ DSCI Requirements:
 Minor Reqs: 27-30 Hours
 Advanced Reqs: 18-20 Hours at 300 Level or Above
 
-FCM Requirements:
-Minor Reqs: 19-20 Hours
-Advanced Reqs: 16 Hours at 300 Level or Above
+ENGI Requirements:
+Minor Reqs: 18 Hours
 
 General Requirements:
 Complete 1 Hour LPAP
@@ -371,9 +370,9 @@ dist.append(0)
 # bsbe_desc.append('This course will explore how bioengineering techniques and principles are applied to understand and model sensory systems, with a focus on the auditory, vestibular, and visual systems. The interaction between the electrical, mechanical and optical aspects of these systems, and ways to modulate these interactions, will be explored. The course will also cover the design of current auditory, visual and somato-sensory neuroprosthetics (i.e. cochlear- implants, retinal implants and brain-machine interfaces), as well as emerging technologies for neural stimulation.')
 
 
-bsbe.append('FUNDAMENTALS OF INTENSIVE WRITING SEMINAR')
+bsbe.append('ENGINEERING DESIGN AND COMMUNICATION')
 bsbe_code.append('FWIS')
-course_code.append('FWIS 100')
+course_code.append('FWIS 188')
 hours.append(3)
 core.append('Y')
 dist.append(1)
