@@ -1,0 +1,1338 @@
+This is LuaHBTeX, Version 1.13.0 (MiKTeX 21.3) (format=lualatex 2021.5.29)  15 JAN 2022 22:38
+ restricted system commands enabled.
+**course_reqs.tex
+(./course_reqs.tex
+LaTeX2e <2020-10-01> patch level 4
+Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/ialak/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-res
+olved path "D:/Applications/MiKTeX/tex/luatex/luaotfload/fontloader-2021-05-20.l
+ua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 3.116
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "C:/Users/ialak/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 4
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-05-27>
+(D:/Applications/MiKTeX/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(D:/Applications/MiKTeX/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/ialak/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(D:/Applications/MiKTeX/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(D:/Applications/MiKTeX/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(D:/Applications/MiKTeX/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(D:/Applications/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count185
+\Gm@cntv=\count186
+\c@Gm@tempcnt=\count187
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+
+(D:/Applications/MiKTeX/tex/latex/geometry/geometry.cfg))
+(D:/Applications/MiKTeX/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(D:/Applications/MiKTeX/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(D:/Applications/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:/Applications/MiKTeX/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(D:/Applications/MiKTeX/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:/Applications/MiKTeX/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 105.
+
+(D:/Applications/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2021/05/26 v1.2b Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen147
+\Gin@req@width=\dimen148
+)
+(D:/Applications/MiKTeX/tex/latex/latex-tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(D:/Applications/MiKTeX/tex/latex/latex-tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box47
+\extrarowheight=\dimen150
+\NC@list=\toks17
+\extratabsurround=\skip58
+\backup@length=\skip59
+\ar@cellbox=\box48
+)
+\TX@col@width=\dimen151
+\TX@old@table=\dimen152
+\TX@old@col=\dimen153
+\TX@target=\dimen154
+\TX@delta=\dimen155
+\TX@cols=\count188
+\TX@ftn=\toks18
+)
+(D:/Applications/MiKTeX/tex/latex/latex-tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
+\LTchunksize=\count189
+\LTcapwidth=\dimen156
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count190
+\LT@rows=\count191
+\c@LT@tables=\count192
+\c@LT@chunks=\count193
+\LT@p@ftn=\toks19
+)
+(D:/Applications/MiKTeX/tex/latex/lipsum/lipsum.sty
+(D:/Applications/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-05-27 L3 programming layer (loader) 
+
+(D:/Applications/MiKTeX/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2021-05-07 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box53
+))
+(D:/Applications/MiKTeX/tex/latex/l3packages/xparse/xparse.sty
+(D:/Applications/MiKTeX/tex/latex/l3packages/xparse/xparse-2020-10-01.sty
+(D:/Applications/MiKTeX/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+
+(D:/Applications/MiKTeX/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+))
+(D:/Applications/MiKTeX/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count195
+\cp@tempcnt=\count196
+)
+(D:/Applications/MiKTeX/tex/latex/hanging/hanging.sty
+Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
+\h@ngcommawd=\skip64
+\h@ngfstopwd=\skip65
+\h@ngquotewd=\skip66
+\h@ngdquotewd=\skip67
+\h@ngquerywd=\skip68
+\h@ngexclwd=\skip69
+\h@ngcolonwd=\skip70
+\h@ngscolonwd=\skip71
+)
+(D:/Applications/MiKTeX/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip72
+\multirow@cntb=\count197
+\multirow@dima=\skip73
+\bigstrutjot=\dimen157
+)
+(D:/Applications/MiKTeX/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(D:/Applications/MiKTeX/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(D:/Applications/MiKTeX/tex/latex/marvosym/marvosym.sty
+Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
+)
+
+LaTeX Warning: Unused global option(s):
+    [14pt].
+
+(./course_reqs.aux)
+\openout1 = course_reqs.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+8.
+ (D:/Applications/MiKTeX/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(43.36243pt, 527.57014pt, 43.36243pt)
+* v-part:(T,H,B)=(43.36243pt, 708.24513pt, 43.36243pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=527.57014pt
+* \textheight=708.24513pt
+* \oddsidemargin=-28.90756pt
+* \evensidemargin=-28.90756pt
+* \topmargin=-65.90756pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(D:/Applications/MiKTeX/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count198
+\scratchdimen=\dimen158
+\scratchbox=\box54
+\nofMPsegments=\count199
+\nofMParguments=\count266
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count267
+\MPscratchDim=\dimen159
+\MPnumerator=\count268
+\makeMPintoPDFobject=\count269
+\everyMPtoPDFconversion=\toks22
+) (D:/Applications/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(D:/Applications/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+
+
+(D:/Applications/MiKTeX/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+
+
+(D:/Applications/MiKTeX/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 IN-TRO-DUC-TORY
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 Molec-u-lar mech-a-nisms of eu-kary-otic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 GEN-ERAL CHEM-
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 In-tro-duc-tion of chem-i-cal phe-nom-ena
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 GEN-ERAL CHEM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 ISTRY LAB-O-RA-
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 Re-quired lab-o-ra-tory com-po-nent of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 GEN-ERAL CHEM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 GEN-ERAL CHEM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 ISTRY LAB-O-RA-
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 Re-quired lab-o-ra-tory com-po-nent of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 OR-GANIC CHEM-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 IN-TRO-DUC-TION
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 TO EN-GI-NEER-ING
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 SURE-MENT SYS-
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 161--161
+\TU/lmr/m/n/10 and con-trol phys-i-cal prop-er-ties and
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 SIN-GLE VARI-ABLE
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 SIN-GLE VARI-ABLE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 OR-DI-NARY DIF-
+ []
+
+
+Underfull \hbox (badness 1137) in paragraph at lines 161--161
+\TU/lmr/m/n/10 FER-EN-TIAL EQUA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 MUL-TI-VARI-ABLE
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 EN-GI-NEER-ING ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 ELEC-TRIC-ITY &
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 161
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 BIO-ENGI-NEER-ING
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 In-tro-duc-tion to ma-te-rial, en-ergy,
+ []
+
+
+Underfull \hbox (badness 1194) in paragraph at lines 161--161
+\TU/lmr/m/n/10 charge, and mo-men-tum bal-ances in
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 161--161
+\TU/lmr/m/n/10 tran-sient con-ser-va-tion equa-tions for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 sto-i-chiom-e-try, and ther-mo-dy-namic
+ []
+
+
+Underfull \hbox (badness 5924) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 Ex-plo-ration of phys-i-o-logic sys-tems
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 FUN-DA-MEN-TALS
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 BIORE-AC-TION EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 BIO-ENGI-NEER-ING
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 THER-MO-DY-NAM-
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 161--161
+\TU/lmr/m/n/10 tis-ti-cal me-chan-ics. Ad-vanced top-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 161--161
+\TU/lmr/m/n/10 ics will in-clude tran-scrip-tion factor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 LAB-O-RA-TORY IN
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 In-tro-duc-tion to tis-sue cul-ture tech-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 BIOMED-I-CAL IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 STRU-MEN-TA-TION
+ []
+
+
+Underfull \hbox (badness 7486) in paragraph at lines 161--161
+\TU/lmr/m/n/10 NEER-ING IN-STRU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 TRANS-PORT PHE-
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 161--161
+\TU/lmr/m/n/10 NOM-ENA IN BIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 STATIS-TICS FOR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 BIO-ENGI-NEER-ING
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 Se-nior Bio-engi-neer-ing stu-dents will
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 161--161
+\TU/lmr/m/n/10 de-sign de-vices in biotech-nol-ogy or
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 161--161
+\TU/lmr/m/n/10 gi-neer-ing eco-nomics, FDA re-quire-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 BIO-ENGI-NEER-ING
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 Se-nior Bio-engi-neer-ing stu-dents will
+ []
+
+
+Underfull \hbox (badness 3579) in paragraph at lines 161--161
+\TU/lmr/m/n/10 de-sign de-vices in biotech-nol-ogy or
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 161--161
+\TU/lmr/m/n/10 gi-neer-ing eco-nomics, FDA re-quire-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 COM-PU-TA-TIONAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 Stu-dents will ac-quire ba-sic to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 intermediate-level dig-i-tal de-sign
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 161--161
+\TU/lmr/m/n/10 pro-fi-ciency for bioengineering-related
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 MI-CRO-CON-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 TROLLER AP-
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 161--161
+\TU/lmr/m/n/10 UV/Vis ab-sorbance), and ac-tu-a-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 IM-PLE-MEN-TA-TION
+ []
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 161--161
+\TU/lmr/m/n/10 OF DIG-I-TAL SYS-
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 Em-bed-ded mi-crosys-tems are widely
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[1{C:/Users/ialak/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 NEU-RO-ENGI-NEER-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 ING: MEA-SUR-ING
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 AND MA-NIP-U-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 LAT-ING NEU-RAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 FUN-DA-MEN-TALS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 CEL-LU-LAR EN-GI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 SEN-SORY NEU-RO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 IN-TRO-DUC-TION
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 TO ENERGY-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 EFFICIENT
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 AD-VANCES IN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 BIO-NAN-OTECH-
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 161--161
+\TU/lmr/m/n/10 search for di-ag-no-sis, de-tec-tion, and
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 161--161
+\TU/lmr/m/n/10 treat-ment of dis-ease; cell tar-get-ing;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 NEURO-MUSCULO-
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 161--161
+\TU/lmr/m/n/10 ING AND SIM-U-LA-
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 161--161
+\TU/lmr/m/n/10 EN-GI-NEER-ING DE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 IN-TRO TO PSY-
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 161--161
+\TU/lmr/m/n/10 made by data sci-ence pro-fes-sion-als.
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 161--161
+\TU/lmr/m/n/10 vacy, de-sign re-spon-si-ble al-go-rithms,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 STATIS-TICS FOR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 An in-tro-duc-tion to math-e-mat-i-cal
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 161--161
+\TU/lmr/m/n/10 statis-tics and com-pu-ta-tion for ap-
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 161--161
+\TU/lmr/m/n/10 pli-ca-tions to data sci-ence. Top-ics
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 161--161
+\TU/lmr/m/n/10 ex-pec-ta-tion, sam-pling dis-tri-bu-tions,
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 161--161
+\TU/lmr/m/n/10 es-ti-ma-tion, con-fi-dence in-ter-vals, hy-
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 161--161
+\TU/lmr/m/n/10 poth-e-sis test-ing and re-gres-sion. A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 IN-TRO-DUC-TION
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 161--161
+\TU/lmr/m/n/10 TOOLS AND MOD-
+ []
+
+
+Underfull \hbox (badness 5893) in paragraph at lines 161--161
+\TU/lmr/m/n/10 hands-on ex-pe-ri-ence in per-form-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 MA-CHINE LEARN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 ING FOR DATA
+ []
+
+
+Underfull \hbox (badness 1342) in paragraph at lines 161--161
+\TU/lmr/m/n/10 clas-si-fi-ca-tion, ker-nels, di-men-sion-al-ity
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 EF-FEC-TIVE DATA
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 161--161
+\TU/lmr/m/n/10 vi-su-al-iza-tion skills to un-der-grad-u-ate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 LEARN-ING AND
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 DATA SCI-ENCE
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 FI-NAN-CIAL MAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/lmr/m/n/10 EN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/lmr/m/n/10 TREPRENEURIAL
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.161 \x
+      
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.161 \x
+      
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+             
+l.161 \x
+      
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[9]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 161.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[11]
+<Undergrad Course Pie.png, id=39, 462.528pt x 346.896pt>
+File: Undergrad Course Pie.png Graphic file (type png)
+<use Undergrad Course Pie.png>
+Package luatex.def Info: Undergrad Course Pie.png  used on input line 163.
+(luatex.def)             Requested size: 277.51894pt x 208.13919pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 HEALTH-CARE IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 NO-VA-TION AND
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 EN-TREPRENEUR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 HEALTH-CARE IN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 NO-VA-TION AND
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 EN-TREPRENEUR-
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 In this follow-on ex-pe-ri-en-tial Lab
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 165--165
+\TU/lmr/m/n/10 of-the-art in-cu-ba-tor and co-working
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 MED-I-CAL EN-GI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 NEER-ING AND
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 165--165
+\TU/lmr/m/n/10 pat-i-bil-ity, de-sign for man-u-fac-tur-ing,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 MED-I-CAL EN-GI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 NEER-ING AND
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 165--165
+\TU/lmr/m/n/10 pat-i-bil-ity, de-sign for man-u-fac-tur-ing,
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 MED-I-CAL IN-NO-VA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 TION IN-DUS-TRY
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 ROLES OF PHYSI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 EN-GI-NEERS AND
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 MBA’S IN HIGH-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 GRAD-U-ATE IN-DE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 MAN-AGE-MENT
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 165--165
+\TU/lmr/m/n/10 and/or small technology-based busi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 AP-PLIED STATIS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 TICS FOR BIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 MA-CHINE LEARN-
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 165--165
+\TU/lmr/m/n/10 ING AND SIG-NAL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 PRO-CESS-ING FOR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 ENCES, BIOMED-I-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 NOL-OGY STAR-
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 165--165
+\TU/lmr/m/n/10 cus-tomer in-ter-views, and present a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 EN-GI-NEER-ING
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 DRUG DE-LIV-ERY
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 165--165
+\TU/lmr/m/n/10 ca-tion of in-no-va-tive en-gi-neer-ing ap-
+ []
+
+
+Underfull \hbox (badness 4647) in paragraph at lines 165--165
+\TU/lmr/m/n/10 proaches to en-hance drug ef-fi-cacy
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 165--165
+\TU/lmr/m/n/10 such as biodegrad-able mi-cro-spheres,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 NANO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 BIOENGINEERING
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 AND NANO-
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 Cov-ers broad range of top-ics in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 in-clud-ing syn-the-sis char-ac-ter-i-za-tion
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 165--165
+\TU/lmr/m/n/10 molec-u-lar imag-ing probes, nanocar-
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 165--165
+\TU/lmr/m/n/10 ri-ers, for drug/gene de-liv-ery, and
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 165--165
+\TU/lmr/m/n/10 nanoma-chines for gene edit-ing and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 AD-VANCES IN
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 165--165
+\TU/lmr/m/n/10 GENOME EDIT-ING
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 This is a course for grad-u-ate stu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 FRON-TIERS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 IN IMMUNO-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 165--165
+\TU/lmr/m/n/10 the de-vel-op-ment of novel ther-a-peu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 AD-DI-TIVE MAN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/lmr/m/n/10 U-FAC-TUR-ING:
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 165--165
+\TU/lmr/m/n/10 THE-ORY AND AP-
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 165--165
+[]|\TU/lmr/m/n/10 Ba-sic prin-ci-ples and ap-pli-ca-tions of
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 165
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.165 \y
+      
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.165 \y
+      
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endtemplate 
+             
+l.165 \y
+      
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[12<./Undergrad Course Pie.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[14]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[15]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 2 on input line 165.
+
+<Grad Course Pie.png, id=53, 462.528pt x 346.896pt>
+File: Grad Course Pie.png Graphic file (type png)
+<use Grad Course Pie.png>
+Package luatex.def Info: Grad Course Pie.png  used on input line 167.
+(luatex.def)             Requested size: 277.51894pt x 208.13919pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[16]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 22.76004pt, for example:
+(fancyhdr)                \setlength{\headheight}{22.76004pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-10.76004pt}.
+
+[17<./Grad Course Pie.png>] (./course_reqs.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 3569 strings out of 478296
+ 244179,552014 words of node,token memory allocated
+ 476 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 62 glue_spec,
+ 4 attribute_list, 1 write nodes
+   avail lists: 2:1146,3:578,4:23,5:1000,6:124,7:25968,8:1,9:2277,10:15,11:2642
+ 23557 multiletter control sequences out of 65536+600000
+ 45 fonts using 4291231 bytes
+ 60i,10n,64p,1303b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+<//?/d:/applications/miktex/fonts/opentype/public/lm/lmroman10-italic.otf><//?/d
+:/applications/miktex/fonts/opentype/public/lm/lmroman10-bold.otf><//?/d:/applic
+ations/miktex/fonts/opentype/public/lm/lmroman10-regular.otf>
+Output written on course_reqs.pdf (17 pages, 202039 bytes).
+
+PDF statistics: 81 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
