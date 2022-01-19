@@ -39,6 +39,19 @@ bioengineering = {
     'hour_requirement': 131
 }
 
+engineering_design = {
+    'required_courses': ['FWIS 188', 'ENGI 200', 'ENGI 210',
+                        'ENGI 350'],
+    'elective_courses': ['BIOE 360', 'BUSI 221', 'BUSI 463',
+                        'BIOE 365', 'CHBE 490', 'ELEC 327',
+                        'ELEC 442', 'ELEC 491', 'ENGI 300',
+                        'ENGI 301', 'ENGI 315', 'ENGI 355',
+                        'MECH 203', 'MECH 488', 'PSYC 370'],
+    'l300_requirement': 0,
+    'course_amt_req': 6,
+    'hour_requirement': 18
+}
+
 gpa_scale = {
     'A+': 4.0,
     'A': 4.0,
@@ -53,6 +66,10 @@ gpa_scale = {
 
 class Course():
     all_courses = []
+    quality_points = 0
+    hours = 0
+    course_count = 0
+    gpa = 0
 
     def __init__(self, course_code, name, hours, distribution=0, description="", cross=[]):
         self.name = name
@@ -70,6 +87,10 @@ class Course():
         self.taken = True
         self.grade = grade
         self.quality_points = gpa_scale[grade]*self.hours
+        Course.quality_points += self.quality_points
+        Course.hours += self.hours
+        Course.course_count += 1
+        Course.gpa = Course.quality_points / Course.hours
     
     def takingCourse(self):
         self.taken = True
