@@ -105,6 +105,7 @@ def getCourse(code):
         if course.course_code == code:
             return course
 
+#COMPLETED COURSES
 Course(course_code="PHYS 101", name="MECHANICS", hours=4, distribution=3, description="A calculus-based introduction to mechanics. Includes classes and lab exercises on kinematics, Newton's Laws, work and energy, conservation laws and rotational motion. Primarily for physical science and engineering students.")
 Course(course_code="MATH 211", name="ORDINARY DIFFERENTIAL EQUATIONS AND LINEAR ALGEBRA", hours=3, description="Study of ordinary differential equations (e.g., solutions to separable and linear first-order equations and to higher-order linear equations with constant coefficients, the properties of solutions to differential equations, and numerical solution methods) and linear algebra (e.g., vector spaces and solutions to algebraic linear equations, dimension, eigenvalues, and eigenvectors of a matrix), as well as the application of linear algebra to first-order systems of differential equations and the qualitative theory of nonlinear systems and phase portraits.")
 Course(course_code="PSYC 101", name="INTRODUCTION TO PSYCHOLOGY", hours=3, description="Survey of topics, problems, and approaches in contemporary psychology. Includes the biological basis of behavior, sensation, perception, attention, learning and memory, thinking, language, abnormal behavior and therapies, personality, and individual differences.")
@@ -114,6 +115,7 @@ for course in Course.all_courses:
     else:
         course.tookCourse("A+")
 
+#CURRENT COURSES
 s22 = ["CAAM 210", "BIOS 201", "CHEM 122", "MATH 212", "PHYS 100", "PHYS 116", "FWIS 188"]
 Course(course_code="CAAM 210", name="INTRODUCTION TO ENGINEERING COMPUTATION", hours=3, description="Modeling, Simulation, and Visualization via MATLAB. Numerical methods: Newton's method in one and several dimensions. Gaussian elimination and optimization. Application to problems in science and engineering.")
 Course(course_code="BIOS 201", name="INTRODUCTORY BIOLOGY I", hours=3, distribution=3, description="This course examines chemistry and energetics, cell physiology, cell biology, Mendelian genetics, molecular genetics, developmental biology, and plant physiology.")
