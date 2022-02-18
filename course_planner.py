@@ -1,3 +1,4 @@
+from audioop import cross
 from unicodedata import name
 import pandas as pd
 import numpy as np
@@ -86,12 +87,13 @@ class Course():
 
     def tookCourse(self, grade):
         self.taken = True
-        self.grade = grade
-        self.quality_points = gpa_scale[grade]*self.hours
-        Course.quality_points += self.quality_points
-        Course.hours += self.hours
-        Course.course_count += 1
-        Course.gpa = Course.quality_points / Course.hours
+        if grade != 0:
+            self.grade = grade
+            self.quality_points = gpa_scale[grade]*self.hours
+            Course.quality_points += self.quality_points
+            Course.hours += self.hours
+            Course.course_count += 1
+            Course.gpa = Course.quality_points / Course.hours
     
     def takingCourse(self):
         self.taking = True
@@ -115,6 +117,16 @@ for course in Course.all_courses:
     else:
         course.tookCourse("A+")
 
+#AP CREDITS
+Course(course_code="MATH 105", name="SINGLE VARIABLE CALCULUS I", hours=3, description="AP credit in calculus I", cross=["MATH 101"])
+Course(course_code="MATH 105", name="SINGLE VARIABLE CALCULUS II", hours=3, description="AP credit in calculus II", cross=["MATH 102"])
+Course(course_code="CHEM 121", name="GENERAL CHEMISTRY I", hours=4, description="UT credit in general chemistry I")
+Course(course_code="CEVE 100", name="AP ENVIRONMENTAL SCIENCE", hours=3, description="AP credit in environmental science")
+Course(course_code="ECON 113", name="AP MACROECONOMICS", hours=3, description="AP credit in macroeconomics")
+Course(course_code="STAT 280", name="AP STATISTICS", hours=4, description="AP credit in statistics")
+Course(course_code="ENGL 121", name="AP ENGLISH", hours=3, description="AP credit in english")
+Course(course_code="HIST 107", name="AP HISTORY", hours=3, description="AP credit in world history")
+
 #CURRENT COURSES
 s22 = ["CAAM 210", "BIOS 201", "CHEM 122", "MATH 212", "PHYS 100", "PHYS 116", "FWIS 188"]
 Course(course_code="CAAM 210", name="INTRODUCTION TO ENGINEERING COMPUTATION", hours=3, description="Modeling, Simulation, and Visualization via MATLAB. Numerical methods: Newton's method in one and several dimensions. Gaussian elimination and optimization. Application to problems in science and engineering.")
@@ -129,3 +141,17 @@ for course in Course.all_courses:
     if course.course_code in s22:
         course.takingCourse()
 
+#REQUIRED COURSES REMAINING
+taken_reqs = 0
+for course in Course.all_courses:
+    if course.course_code in bioengineering['required_courses']:
+        taken_reqs += 1
+        print(course.course_code)
+    elif course.cross:
+        for i in range(len(course.cross)):
+            if course.cross[i] in bioengineering['required_courses']:
+                taken_reqs += 1
+                print(course.cross[i])
+                break
+remaining = len(bioengineering['required_courses']) - taken_reqs
+print(f'You have taken {taken_reqs} required courses. You still need {remaining} courses for BIOE.')
